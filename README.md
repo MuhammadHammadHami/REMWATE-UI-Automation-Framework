@@ -38,20 +38,23 @@ REMWATE-UI-Automation-Framework/
 ├── package.json          # Project metadata and dependencies
 ├── cypress.config.js     # Cypress configuration
 └── README.md             # Project documentation
-
+```
 
 ## Getting Started
 1. Install dependencies
 ```bash
 npm install
+```
 
 2. Run tests locally (headless mode)
 ```bash
 npx cypress run
+```
 
 3. Run tests in Cypress UI
 ```bash
 npx cypress open
+```
 
 Reports & Artifacts
 Screenshots and videos are captured automatically on failure
@@ -62,6 +65,7 @@ If using Allure, generate reports like this:
 # After test run
 npm run allure:generate
 npm run allure:open
+```
 
 Make sure Allure is set up in package.json and plugins.
 
@@ -78,6 +82,6 @@ Others...
 
 Sample GitHub Actions workflow is included in .github/workflows/.
 
-🤝 Contributing
+## Contributing
 Feel free to fork this repository and open pull requests. For larger changes, open an issue first to discuss what you'd like to do.
 
