@@ -7,7 +7,7 @@ describe('UI Login Tests', () => {
     LoginPage.visit();
   });
 
-  it('Login with valid credentials', () => {
+  it('Login with valid credentials ', () => {
     LoginPage.enterEmail(testData.validUser.email);
     LoginPage.enterPassword(testData.validUser.password);
     LoginPage.submit();
