@@ -1,0 +1,6 @@
+{
+    "product": "/products",
+    "login": "/login",
+    "cart": "/view_cart",
+    "home": "/"
+}

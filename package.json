@@ -1,0 +1,30 @@
+{
+  "name": "remwate-automation-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:ui": "cypress run --spec 'cypress/e2e/ui-tests/**/*'",
+    "cy:run:api": "cypress run --spec 'cypress/e2e/api-tests/**/*'",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:run:headed": "cypress run --headed",
+    "cy:run:record": "cypress run --record --key YOUR_RECORD_KEY",
+    "test": "cypress run",
+    "test:smoke": "cypress run --spec 'cypress/e2e/ui-tests/login.spec.cy.js'",
+    "test:regression": "cypress run --spec 'cypress/e2e/**/*'"
+  },
+  "keywords": [],
+  "author": "Muhammad Hammad",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress": "^14.5.3",
+    "cypress-mochawesome-reporter": "^3.8.4",
+    "cypress-real-events": "^1.14.0"
+  }
+}

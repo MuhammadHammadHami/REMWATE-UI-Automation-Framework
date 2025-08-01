@@ -1,0 +1,34 @@
+{
+  "validUser": {
+    "name": "Hammad",
+    "email": "hammad@yopmail.com",
+    "password": "Mobile@1",
+    "successMsg": "Logged in as "
+  },
+  "invalidUser": {
+    "email": "invalid@example.com",
+    "password": "wrongpass",
+    "errorMessage": "Your email or password is incorrect!" 
+  },
+   "newUser": {
+    "name": "Hammad",
+    "email": "hammadREMWASTE@yopmail.com",
+    "password": "Mobile@1",
+    "day": "10",
+    "month": "April",
+    "year": "1990",
+    "firstName": "Muhammad",
+    "lastName": "Hammad",
+    "address": "123 Main St",
+    "state": "Berlin",
+    "city": "Berlin",
+    "zipcode": "12345",
+    "mobile": "123456789",
+    "successMsg": "Account Created!"
+  },
+  "product": {
+  "productToSearch": "Blue Top",
+  "succesMessage": "Continue Shopping"
+}
+
+}
